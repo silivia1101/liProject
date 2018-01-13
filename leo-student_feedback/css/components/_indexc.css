@@ -1,0 +1,141 @@
+html,
+body {
+  height: 100%;
+  background: #FFF;
+}
+header {
+  height: auto;
+  /* padding-bottom: 8rem; */
+}
+header img {
+  width: 100%;
+}
+nav {
+  background: #fff;
+}
+nav p {
+  font-size: 0.6rem;
+  text-align: center;
+  line-height: 3rem;
+  color: #5d5d5d;
+}
+.selectDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem;
+}
+.selectDiv .selectDivBox {
+  width: 13rem;
+  position: relative;
+  border: 1px solid #d8d8d8;
+  font-size: 0.75rem;
+  border-radius: 0.4rem;
+  margin: 0 0.25rem 0 0;
+}
+.selectDiv .selectDivBox select {
+  min-height: 1.7rem !important;
+  padding-left: 0.3rem;
+  /*-webkit-appearance:menulist !important;*/
+  /*appearance: menulist !important;*/
+}
+.selectDiv .selectDivBox .select3 {
+  width: 5rem !important;
+}
+.selectDiv .selectDivBox .selectedImg {
+  position: absolute;
+  right: 0.1rem;
+  top: 36%;
+  width: 0.7rem;
+}
+.selectDiv .selectDivBox .searchIng {
+  border: 1px solid #979797;
+  background: #d8d8d8;
+  border-radius: 0.4rem;
+  margin-left: 0.3rem;
+  margin-right: 0.2rem;
+}
+/* 表格模块 */
+.table2 {
+  width: 100%;
+  /*margin: 25px auto 0;*/
+  font-size: 0.7rem;
+}
+.table2 a {
+  text-decoration: none;
+}
+.table2 tr {
+  height: 2rem;
+  line-height: 2rem;
+}
+.table2 th {
+  text-align: center;
+  border-bottom: 2px solid #f0b450;
+}
+.table2 .td2 {
+  border-right: 2px solid #e7e7e7;
+}
+.table2 .td2 p {
+  width: 150px;
+}
+.table2 thead tr {
+  height: 2rem;
+  line-height: 2rem;
+  font-size: 0.8rem;
+  background: #f9f9f9;
+}
+.table2 .titlesTip {
+  right: 0.2rem;
+  color: #f00;
+  top: 0.1rem;
+  height: 1rem;
+  line-height: 1rem;
+}
+.barcon {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 0.7rem;
+  height: 1rem;
+  line-height: 1rem;
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+}
+.barcon li {
+  margin: 0;
+  display: flex;
+}
+.barcon a {
+  font-weight: normal;
+  display: inline-block;
+  margin: 0.1rem;
+  padding-top: 0;
+  color: black;
+  width: 1rem;
+  text-align: center;
+}
+.barcon a:hover {
+  background-color: #d8d8d8;
+}
+.barcon #jumpPage {
+  background-color: #d8d8d8;
+  padding: 0.1rem;
+  width: 1.5rem;
+}
+.barcon #jumpWhere {
+  width: 2rem;
+  height: 1rem;
+  min-height: 1rem;
+  border: 1px solid;
+  /* font-size: 1rem; */
+  line-height: 1rem;
+  margin: 0 0.2rem;
+  /* background: #fff; */
+  text-align: center;
+  /* height: 0.5rem !important; */
+}

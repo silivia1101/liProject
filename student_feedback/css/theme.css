@@ -1,0 +1,241 @@
+.img-match-screen {
+  width: 100%;
+  display: block;
+}
+.sec-form {
+  background-color: #fff;
+  padding: 0 15px 0;
+}
+.sec-form p.form-tip {
+  text-align: center;
+  vertical-align: bottom;
+  color: #333333;
+  font-size: 14px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  line-height: 1;
+}
+.sec-form p.form-tip .iconfont {
+  color: #fa0102;
+  font-size: 14px;
+}
+.sec-form p.form-tip .price {
+  color: #fa0102;
+  font-size: 24px;
+  font-weight: bold;
+}
+.sec-form p.form-tip .lesson {
+  color: #fa0102;
+  font-size: 14px;
+  font-weight: bold;
+}
+@media (max-width: 350px) {
+  .sec-form p.form-tip {
+    font-size: 12px;
+  }
+}
+.sec-form .part-trial-form .sec-title {
+  margin-bottom: 16px;
+  margin-top: 25px;
+}
+.sec-form .part-trial-form .sec-title .title-begin {
+  font-size: 26px;
+  color: #fa0203;
+  font-weight: bold;
+}
+.sec-form .part-trial-form .sec-title .title-end {
+  font-size: 26px;
+  color: #333333;
+  font-weight: bold;
+}
+.sec-form .part-trial-form .form-btn {
+  background: -moz-linear-gradient(top, #fa0002 0%, #fa6400 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fa0002), color-stop(100%, #fa6400));
+  background: -webkit-linear-gradient(top, #fa0002 0%, #fa6400 100%);
+  background: -o-linear-gradient(top, #fa0002 0%, #fa6400 100%);
+  background: -ms-linear-gradient(top, #fa0002 0%, #fa6400 100%);
+  background: linear-gradient(to bottom, #fa0002 0%, #fa6400 100%);
+}
+.sec-form .part-trial-form .private-tip {
+  color: #b88700;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 10px;
+}
+.sec-form .part-trial-form .private-tip .iconfont {
+  color: #b88700;
+  font-size: 14px;
+  margin-right: 3px;
+}
+.sec-form .leo-form .input-container .input-div {
+  position: relative;
+  border: 1px solid #e6e6e6;
+  border-radius: 6px;
+  padding-right: 6px;
+  background-color: #f0f0f0;
+  padding-left: 40px;
+  box-sizing: border-box;
+}
+.sec-form .leo-form .input-container .input-div .input-icon {
+  display: inline-block;
+  position: absolute;
+  left: 10px;
+  color: #333;
+  font-size: 24px;
+  line-height: 50px;
+}
+.sec-form .leo-form .input-container .input-div .input-select-arrow {
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  color: #333;
+  font-size: 8px;
+  line-height: 50px;
+}
+.sec-form .leo-form .input-container .input-div .input-txt,
+.sec-form .leo-form .input-container .input-div select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  border: none;
+  width: 100%;
+  height: 50px;
+  color: #333;
+  font-size: 16px;
+  background-color: #f0f0f0;
+}
+.sec-form .leo-form .input-container .error-tip {
+  font-size: 12px;
+  color: #ff4f63;
+  padding: 5px 0 7px 50px;
+  margin: 0;
+  line-height: 1;
+  visibility: hidden;
+}
+.sec-form .leo-form .input-container.focus .input-div {
+  border-color: #0bceff;
+}
+.sec-form .leo-form .input-container.focus .input-div .input-icon {
+  color: #0bceff;
+}
+.sec-form .leo-form .input-container.focus .error-tip {
+  visibility: hidden;
+}
+.sec-form .leo-form .input-container.error .input-div {
+  border: 2px solid #ff4f63;
+}
+.sec-form .leo-form .input-container.error .error-tip {
+  visibility: visible;
+}
+.sec-form .leo-form .form-btn {
+  color: white;
+  font-size: 24px;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 25px;
+  background-color: #7d69ff;
+  text-align: center;
+  cursor: pointer;
+}
+header {
+  background: #fff url(../img/youshangjiao.png) no-repeat right top;
+  background-size: 90% 50%;
+  height: 6rem;
+  width: 100%;
+  line-height: 5rem;
+  text-align: center;
+}
+.titleDiv {
+  display: inline-block;
+  line-height: 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: -webkit-left;
+  background-size: 100% 100%;
+  padding: 0 1rem;
+  margin-top: 2rem;
+}
+.container_box {
+  background: #f9f9f9;
+  padding: 1rem 1.5rem 0;
+  border-top: 1px solid #ccc;
+}
+.containers_title {
+  line-height: 2.5rem;
+}
+.headerDiv {
+  text-indent: 1rem;
+}
+.TableDiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 2rem;
+  /* color: #000 !important; */
+}
+.TableDiv p {
+  color: #212121;
+}
+.picDiv {
+  width: 100%;
+}
+.picDiv img {
+  width: inherit;
+  /*height: 6rem;*/
+}
+.dateDiv {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem 0rem;
+}
+.readNum {
+  color: #f5a623;
+}
+footer.footerS {
+  margin-top: 55px;
+}
+.otherStorys {
+  width: 100%;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  padding-bottom: 18px;
+  text-align: center;
+  border-bottom: 2px solid #f5b955;
+  margin-bottom: 20px;
+}
+.otherDiv {
+  display: inline-block;
+  width: 50%;
+  line-height: 2rem;
+  color: #f5a623;
+  background: url(//wx-yxyx-web.leo1v1.com/wx_yxyx_student_feedback/img/pic_text.png) no-repeat;
+  background-size: 100% 100%;
+}
+.col-xs-6 {
+  width: 50%;
+  padding: 0 15px;
+}
+.otherStory img {
+  width: 100%;
+  height: 5rem;
+}
+dd {
+  font-size: 0.55rem;
+  width: 100%;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  background: #fff;
+  color: #000;
+  margin-bottom: 1rem;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+section img {
+  width: 100% !important;
+}

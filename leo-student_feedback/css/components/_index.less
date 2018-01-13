@@ -1,0 +1,176 @@
+@green: #8cc800;
+@blue: #0bceff;
+@yellow: #fa6400;
+@red: #ff4f63;
+@gray-333: #333;
+@gray-666: #666666;
+@gray-999: #999999;
+@gray-ccc: #cccccc;
+@gray-e6: #e6e6e6;
+@gray-f0: #f0f0f0;
+
+@split: @gray-e6;
+@bg: @gray-f0;
+@placeholder: @gray-ccc;
+
+@base-url: "//leohtml.oss-cn-shanghai.aliyuncs.com/www/market/";
+.img-match-screen {
+  width: 100%;
+  display: block;
+}
+.sec-form {
+  background-color: #fff;
+  padding: 0 15px 0;
+  p.form-tip {
+    text-align: center;
+    vertical-align: bottom;
+    color: #333333;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    line-height: 1;
+    .iconfont {
+      color: #fa0102;
+      font-size: 14px;
+    }
+    .price {
+      color: #fa0102;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    .lesson {
+      color: #fa0102;
+      font-size: 14px;
+      font-weight: bold;
+    }
+  }
+  @media (max-width: 350px) {
+    p.form-tip {
+      font-size: 12px;
+    }
+  }
+  .part-trial-form {
+    .sec-title {
+      margin-bottom: 16px;
+      margin-top: 25px;
+      .title-begin {
+        font-size: 26px;
+        color: #fa0203;
+        font-weight: bold;
+      }
+      .title-end {
+        font-size: 26px;
+        color: #333333;
+        font-weight: bold;
+      }
+    }
+
+    .form-btn {
+      background: -moz-linear-gradient(top, #fa0002 0%, #fa6400 100%);
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fa0002), color-stop(100%, #fa6400));
+      background: -webkit-linear-gradient(top, #fa0002 0%, #fa6400 100%);
+      background: -o-linear-gradient(top, #fa0002 0%, #fa6400 100%);
+      background: -ms-linear-gradient(top, #fa0002 0%, #fa6400 100%);
+      background: linear-gradient(to bottom, #fa0002 0%, #fa6400 100%);
+    }
+
+    .private-tip {
+      color: #b88700;
+      font-size: 14px;
+      text-align: center;
+      margin-top: 10px;
+      .iconfont {
+        color: #b88700;
+        font-size: 14px;
+        margin-right: 3px;
+      }
+    }
+  }
+  .leo-form {
+    .input-container {
+      .input-div {
+        position: relative;
+        border: 1px solid @split;
+        border-radius: 6px;
+        padding-right: 6px;
+        background-color: @bg;
+        padding-left: 40px;
+        box-sizing: border-box;
+        .input-icon {
+          display: inline-block;
+          position: absolute;
+          left: 10px;
+          color: #333;
+          font-size: 24px;
+          line-height: 50px;
+        }
+
+        .input-select-arrow {
+          display: inline-block;
+          position: absolute;
+          right: 10px;
+          color: #333;
+          font-size: 8px;
+          line-height: 50px;
+        }
+
+        .input-txt, select {
+          -webkit-appearance: none;
+          -moz-appearance: none;
+          appearance: none;
+          outline: none;
+          border: none;
+          width: 100%;
+          height: 50px;
+          color: #333;
+          font-size: 16px;
+          background-color: @bg;
+        }
+      }
+
+      .error-tip {
+        font-size: 12px;
+        color: @red;
+        padding: 5px 0 7px 50px;
+        margin: 0;
+        line-height: 1;
+        visibility: hidden;
+      }
+    }
+
+    .input-container.focus {
+      .input-div {
+        border-color: @blue;
+        .input-icon {
+          color: @blue;
+        }
+      }
+
+      .error-tip {
+        visibility: hidden;
+      }
+    }
+
+    .input-container.error {
+      .input-div {
+        border: 2px solid @red;
+      }
+      .error-tip {
+        visibility: visible;
+      }
+    }
+
+    .form-btn {
+      color: white;
+      font-size: 24px;
+      height: 50px;
+      line-height: 50px;
+      border-radius: 25px;
+      background-color: #7d69ff;
+      text-align: center;
+      cursor: pointer;
+    }
+
+  }
+}
+

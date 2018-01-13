@@ -1,0 +1,27 @@
+.turntable-bg {
+    width: 100%;
+    /*height: 15rem;*/
+    /*margin: 0 auto;*/
+    /*position: relative;*/
+    /*border: 1px solid #f00;*/
+    /*background: url("../images/turntable-bg.jpg");*/
+}
+.turntable-bg .pointer {
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    left: 50%;
+    top: 32%;
+    margin-left: -2rem;
+    /* margin-top: -3rem; */
+    z-index: 8;
+}
+.turntable-bg .rotate {
+    width: 16rem;
+    height: 16rem;
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    margin-left: -8rem;
+    /*margin-top: -8rem;*/
+}

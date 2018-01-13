@@ -1,0 +1,80 @@
+{
+  "index": {
+    "title": "个人中心"
+  },
+  "login": {
+    "title": "绑定页面"
+  },
+  "login-suc": {
+    "title": "绑定成功"
+  },
+  "total-summary-cash": {
+    "title": "提现中"
+  },
+  "member-diamond": {
+    "title": "会员等级"
+  },
+  "member-gold": {
+    "title": "会员等级"
+  },
+  "member-gold-trail": {
+    "title": "会员等级"
+  },
+  "total-summary": {
+    "title": "我的收入"
+  },
+  "total-summary-total": {
+    "title": "总收入"
+  },
+  "total-summary-total-invite": {
+    "title": "邀请奖励"
+  },
+  "total-summary-total-cash": {
+    "title": "佣金奖励"
+  },
+  "total-summary-total-activity": {
+    "title": "活动奖励"
+  },
+  "total-summary-available": {
+    "title": "可提现"
+  },
+  "total-summary-available-invite": {
+    "title": "邀请奖励"
+  },
+  "total-summary-available-cash": {
+    "title": "佣金奖励"
+  },
+  "total-summary-available-activity": {
+    "title": "活动奖励"
+  },
+  "total-summary-already": {
+    "title": "已提现"
+  },
+  "total-summary-cash": {
+    "title": "提现中"
+  },
+  "total-summary-select": {
+    "title": "提现方式 "
+  },
+  "total-summary-select-bank": {
+    "title": "银行卡提现 "
+  },
+  "total-summary-select-net": {
+    "title": "支付宝提现 "
+  },
+  "invite-num": {
+    "title": "邀请个数 "
+  },
+  "more-activity": {
+    "title": "更多活动 "
+  },
+  "lottery-draw": {
+    "title": "每日抽奖 "
+  },
+  "invite-member": {
+    "title": "邀请会员 "
+  },
+  "invite-students": {
+    "title": "邀请学员 "
+  }
+}

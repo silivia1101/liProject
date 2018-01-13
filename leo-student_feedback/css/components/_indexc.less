@@ -1,0 +1,174 @@
+@backgroundD8:#d8d8d8;
+@bgE7:#e7e7e7;
+html,body{
+    height: 100%;
+    background:#FFF;
+}
+
+// 顶部banner图模块
+header {
+    height: auto;
+    //border-bottom: 1px solid #e7e7e7;
+    /* padding-bottom: 8rem; */
+    img{
+        width:100%;
+    }
+}
+//hr {
+//    width: 100%;
+//    height: 1px;
+//    background: #e7e7e7;
+//}
+// 搜索模块
+nav {
+    background: #fff;
+    p {
+        font-size: 0.6rem;
+        text-align: center;
+        line-height: 3rem;
+        color: #5d5d5d;
+    }
+}
+.selectDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+    .selectDivBox {
+        width: 13rem;
+        position: relative;
+        border: 1px solid @backgroundD8;
+        font-size: 0.75rem;
+        border-radius: 0.4rem;
+        margin: 0 0.25rem 0 0;
+        select {
+            min-height: 1.7rem !important;
+            padding-left: 0.3rem;
+            /*-webkit-appearance:menulist !important;*/
+            /*appearance: menulist !important;*/
+        }
+        .select3 {
+            width: 5rem !important;
+        }
+        .selectedImg {
+            position: absolute;
+            right: 0.1rem;
+            top: 36%;
+            width: 0.7rem;
+        }
+        .searchIng {
+            border: 1px solid #979797;
+            background: @backgroundD8;
+            border-radius: 0.4rem;
+            margin-left: 0.3rem;
+            margin-right: 0.2rem;
+        }
+    }
+}
+/* 表格模块 */
+.table2 {
+    width:100%;
+    /*margin: 25px auto 0;*/
+    font-size: 0.7rem;
+    a{
+        text-decoration: none;
+    }
+    tr {
+        height: 2rem;
+        line-height: 2rem;
+    }
+    th {
+        text-align: center;
+        border-bottom: 2px solid #f0b450;
+    }
+    .td2{
+        border-right: 2px solid @bgE7;
+        p {
+            width: 150px;
+        }
+    }
+    thead tr {
+         height: 2rem;
+         line-height: 2rem;
+         font-size: 0.8rem;
+         background: #f9f9f9;
+    }
+    .titlesTip {
+            right: 0.2rem;
+            color: #f00;
+            top: 0.1rem;
+            height: 1rem;
+            line-height: 1rem;
+    }
+}
+.barcon {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 0.7rem;
+    height: 1rem;
+    line-height: 1rem;
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    li {
+        margin: 0;
+        display: flex;
+    }
+    a {
+        font-weight: normal;
+        display: inline-block;
+        margin: 0.1rem;
+        padding-top: 0;
+        color: black;
+        width:1rem;
+        text-align: center;
+    }
+    a:hover{
+        background-color: @backgroundD8;
+    }
+    #jumpPage {
+        background-color: @backgroundD8;
+        padding: 0.1rem;
+        width: 1.5rem;
+    }
+    #jumpWhere {
+        width: 2rem;
+        height: 1rem;
+        min-height: 1rem;
+        border: 1px solid;
+        /* font-size: 1rem; */
+        line-height: 1rem;
+        margin: 0 0.2rem;
+        /* background: #fff; */
+        text-align: center;
+        /* height: 0.5rem !important; */
+    }
+}
+
+//#carouselBox{
+//    #carousel{
+//        position:relative;
+//        z-index:2;
+//        height:250px;
+//        /*margin-top:20px;*/
+//        transform-style:preserve-3d;
+//        perspective:800px;
+//        p{
+//            position:absolute;
+//            left:20%;
+//            top:50%;
+//            width:10rem;
+//            height:6rem;
+//            /*margin-left:-252px;*/
+//            margin-top:-133px;
+//            transition:transform .5s ease-in-out;
+//            box-shadow:8px 8px 20px rgba(0,0,0,.2);
+//            cursor:pointer
+//        }
+//    }
+//}
